@@ -15,7 +15,7 @@ const Register = () => {
       users.push({ email, password, role });
       localStorage.setItem("users", JSON.stringify(users));
       alert("Registrasi berhasil. Silakan login.");
-      navigate("/login");
+      navigate("/");
     } else {
       alert("Semua field harus diisi!");
     }
